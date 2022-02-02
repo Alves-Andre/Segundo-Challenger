@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.navegacao {
+    position: absolute;
+    margin-top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+body {
+    background-color: hsl(185, 41%, 84%);
+}
+main {
+    background-color: white;
+}
+.corpo {
+    position: absolute;
+    margin-top: 15%;
+    width: 700px;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid white;
+    left: 50%;
+    transform: translate(-50%);
+}
+input {
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+}
+#parteesquerda {
+    width: 40%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+    position: inherit;
+}
+#parteesquerda p{
+    left: 0;
+}
+#parteesquerda p:nth-child(1){
+    position: inherit;
+    top: 0;
+    font-size: 15px;
+    color: hsl(186, 14%, 43%);
+}
+#entrada{
+    position: inherit;
+    top: 10%;
+    font-size: 24px;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    color:hsl(183, 100%, 15%);
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+#dollar {
+    position: inherit;
+    top: 13%;
+    left: 10px;
+    width: 12px;
+}
+#parteesquerda p:nth-child(4){
+    position: inherit;
+    top: 30%;
+    font-size: 15px;
+    color: hsl(186, 14%, 43%);
+}
+.botoes {
+    display: inline;
+    position: relative;
+    top: 40%;
+    width: 85px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+}
+#custom {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(186, 14%, 43%);
+    font-weight: bold;
+    text-align: right;
+    font-size: 24px;
+}
+
+#npeople {
+    position: inherit;
+    top: 80%;
+    color: hsl(186, 14%, 43%);
+    font-size: 15px;
+}
+#icon-person{
+    position: inherit;
+    top: 91%;
+    left: 10px;
+    width: 12px;
+}
+#qtdpeople {
+    position: inherit;
+    top: 87%;
+    left: 0;
+    background-color: hsl(189, 41%, 97%);
+    font-size: 24px;
+    border: none;
+    color:hsl(183, 100%, 15%);
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+#partedireita {
+    width: 45%;
+    height: 90%;
+    right: 3%;
+    top: 5%;
+    position: inherit;
+    border-radius: 10px;
+    background-color: hsl(183, 100%, 15%);
+}
+#partedireita P:nth-child(1){
+    position: inherit;
+    top: 15%;
+    color:hsl(189, 41%, 97%);
+    font-size: 13px;
+    left: 10%;
+    font-weight: bold;
+}
+#partedireita P:nth-child(2){
+    position: inherit;
+    top: 21%;
+    color:hsl(186, 14%, 56%);
+    font-size: 10px;
+    left: 10%;
+}
+#reset {
+    position: inherit;
+    top: 80%;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+#foter{
+    font-size: 14px;
+    color:hsl(183, 100%, 15%);
+}
+#foter a{
+    font-size: 14px;
+    color:hsl(183, 100%, 15%);
+    opacity: 90%;
+}
+#partedireita p:nth-child(4){
+    position: inherit;
+    color:hsl(189, 41%, 97%);
+    font-size: 13px;
+    top: 35%;
+    left: 10%;
+    font-weight: bold;
+}
+#partedireita p:nth-child(5){
+    position: inherit;
+    color:hsl(186, 14%, 56%);
+    font-size: 10px;
+    top: 41%;
+    left: 10%;
+}
+label {
+    position: inherit;
+    color: hsl(172, 67%, 45%);
+    font-size: 35px;
+    right: 10%;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+#personresult {
+    top: 15%;
+}
+#amountresult {
+    top: 35%;
+}
+p {
+    font-weight: bold;
+}

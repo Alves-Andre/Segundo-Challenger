@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Space+Mono">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav class="navegacao">
+    <img src="images/logo.svg" alt="Logo">
+  </nav>
+  <main class="corpo">
+    <div id="parteesquerda">
+      <p>Bill</p>
+  
+      <input value="#" type="number" id="entrada" onblur="calcular()">
+      <img alt="icon-dollar" id="dollar" src="images/icon-dollar.svg">
+      <p>Select Tip %</p>
+      <input type="button" class="botoes" onblur="calcular()" onclick="Seletor()" id="cinco" value="5">
+      <input type="button" class="botoes" onblur="calcular()" onclick="Seletor()" id="dez" value="10">
+      <input type="button" class="botoes" onblur="calcular()" onclick="Seletor()" id="quinze" value="15">
+      <input type="button" class="botoes" onblur="calcular()" onclick="Seletor()" id="vinte" value="25">
+      <input type="button" class="botoes" onblur="calcular()" onclick="Seletor()" id="cinquenta" value="50">
+      <input type="text" class="botoes" onblur="calcular()" onclick="Seletor()" id="custom" value="Custom">
+    
+      <p id="npeople">Number of People</p>
+      <input type="number" name="quantida de pessoas" id="qtdpeople" onblur="calcular()">
+      <img alt="icon-person" id="icon-person" src="images/icon-person.svg">
+    </div>
+  
+    <div id="partedireita">
+      <p>Tip Amount</p>
+      <p>/ person</p>
+      <label for="#" id="personresult"></label>
+      <p>Total</p>
+      <p>/ person</p>
+      <label for="#" id="amountresult"></label>
+      <input type="button" value="RESET" id="reset">
+      
+    </div>
+  
+  </main>
+  <footer class="attribution">
+    <p id="foter">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="github.com/Alves-Andre">André Alves</a>.
+    </p>
+  </footer>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
